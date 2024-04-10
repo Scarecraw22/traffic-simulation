@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-10 18:20:33.026621 by randomTrips.py v1_19_0+0000-baa66a0f364
+<!-- generated on 2024-04-10 18:29:33.408049 by randomTrips.py v1_19_0+0000-baa66a0f364
 <configuration>
-    <net-file value=".\20\custom_20.net.xml"/>
-    <route-file value=".\20\custom_20.routes.xml"/>
+    <net-file value="custom.net.xml"/>
+    <route-file value="custom.routes.xml"/>
     <length value="True"/>
-    <end value="500.0"/>
+    <end value="800.0"/>
     <period value="2.0"/>
 </configuration>
 -->
 
-<!-- generated on 2024-04-10 18:20:32 by Eclipse SUMO duarouter Version 1.19.0
+<!-- generated on 2024-04-10 18:29:33 by Eclipse SUMO duarouter Version 1.19.0
 <configuration xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="http://sumo.dlr.de/xsd/duarouterConfiguration.xsd">
 
     <input>
-        <net-file value=".\20\custom_20.net.xml"/>
+        <net-file value="custom.net.xml"/>
         <route-files value="trips.trips.xml"/>
     </input>
 
     <output>
-        <output-file value=".\20\custom_20.routes.xml"/>
+        <output-file value="custom.routes.xml"/>
         <alternatives-output value="NUL"/>
     </output>
 
     <time>
         <begin value="0.0"/>
-        <end value="500.0"/>
+        <end value="800.0"/>
     </time>
 
     <report>
@@ -138,7 +138,7 @@
         <route edges="fh hi ib bc ce ef fg"/>
     </vehicle>
     <vehicle id="33" depart="66.00">
-        <route edges="-fg fh hi ib -ab"/>
+        <route edges="-fg -ef -de -cd -bc -ab"/>
     </vehicle>
     <vehicle id="34" depart="68.00">
         <route edges="-hi -fh"/>
@@ -297,7 +297,7 @@
         <route edges="hi ib bc ce"/>
     </vehicle>
     <vehicle id="86" depart="172.00">
-        <route edges="ab bc ce ef fg"/>
+        <route edges="ab -ib -hi -fh fg"/>
     </vehicle>
     <vehicle id="87" depart="174.00">
         <route edges="ef fh hi ib bc ce -de"/>
@@ -345,7 +345,7 @@
         <route edges="fh hi ib bc ce -de"/>
     </vehicle>
     <vehicle id="102" depart="204.00">
-        <route edges="ab bc ce -de"/>
+        <route edges="ab -ib -hi -fh -ef -de"/>
     </vehicle>
     <vehicle id="103" depart="206.00">
         <route edges="-hi -fh -ef -de -cd -bc"/>
@@ -354,7 +354,7 @@
         <route edges="-hi -fh -ef -de -cd ce ef fh hi ib"/>
     </vehicle>
     <vehicle id="105" depart="210.00">
-        <route edges="-fg -ef -de -cd ce ef fg"/>
+        <route edges="-fg -ef -de -cd -bc -ib -hi -fh fg"/>
     </vehicle>
     <vehicle id="106" depart="212.00">
         <route edges="ab -ib"/>
@@ -696,7 +696,7 @@
         <route edges="-fg fh"/>
     </vehicle>
     <vehicle id="219" depart="438.00">
-        <route edges="ab bc ce ef fg"/>
+        <route edges="ab -ib -hi -fh fg"/>
     </vehicle>
     <vehicle id="220" depart="440.00">
         <route edges="ce ef fh hi ib"/>
@@ -786,6 +786,456 @@
         <route edges="-hi -fh -ef -de"/>
     </vehicle>
     <vehicle id="249" depart="498.00">
-        <route edges="ab bc ce -de -cd"/>
+        <route edges="ab -ib -hi -fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="250" depart="500.00">
+        <route edges="ce -de -cd -bc -ab"/>
+    </vehicle>
+    <vehicle id="251" depart="502.00">
+        <route edges="-hi -fh -ef -de -cd ce"/>
+    </vehicle>
+    <vehicle id="252" depart="504.00">
+        <route edges="-bc -ib -hi -fh -ef -de -cd ce"/>
+    </vehicle>
+    <vehicle id="253" depart="506.00">
+        <route edges="-de -cd ce ef fh hi ib bc"/>
+    </vehicle>
+    <vehicle id="254" depart="508.00">
+        <route edges="-cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="255" depart="510.00">
+        <route edges="-ef -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="256" depart="512.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="257" depart="514.00">
+        <route edges="de ef fh"/>
+    </vehicle>
+    <vehicle id="258" depart="516.00">
+        <route edges="-fg -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="259" depart="518.00">
+        <route edges="-bc -ib -hi -fh -ef -de -cd ce ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="260" depart="520.00">
+        <route edges="ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="261" depart="522.00">
+        <route edges="ce ef fg"/>
+    </vehicle>
+    <vehicle id="262" depart="524.00">
+        <route edges="ce ef"/>
+    </vehicle>
+    <vehicle id="263" depart="526.00">
+        <route edges="hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="264" depart="528.00">
+        <route edges="-bc -ib -hi -fh -ef -de"/>
+    </vehicle>
+    <vehicle id="265" depart="530.00">
+        <route edges="-de -cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="266" depart="532.00">
+        <route edges="cd de ef fh hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="267" depart="534.00">
+        <route edges="de ef"/>
+    </vehicle>
+    <vehicle id="268" depart="536.00">
+        <route edges="-de -cd ce"/>
+    </vehicle>
+    <vehicle id="269" depart="538.00">
+        <route edges="de ef fh hi ib bc ce -de -cd"/>
+    </vehicle>
+    <vehicle id="270" depart="540.00">
+        <route edges="fh hi ib"/>
+    </vehicle>
+    <vehicle id="271" depart="542.00">
+        <route edges="-cd -bc -ab"/>
+    </vehicle>
+    <vehicle id="272" depart="544.00">
+        <route edges="-hi -fh -ef -de -cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="273" depart="546.00">
+        <route edges="hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="274" depart="548.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc"/>
+    </vehicle>
+    <vehicle id="275" depart="550.00">
+        <route edges="ce"/>
+    </vehicle>
+    <vehicle id="276" depart="552.00">
+        <route edges="-cd -bc -ib -hi -fh fg"/>
+    </vehicle>
+    <vehicle id="277" depart="554.00">
+        <route edges="fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="278" depart="556.00">
+        <route edges="-de -cd ce ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="279" depart="558.00">
+        <route edges="ef fh hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="280" depart="560.00">
+        <route edges="-ib -hi"/>
+    </vehicle>
+    <vehicle id="281" depart="562.00">
+        <route edges="bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="282" depart="564.00">
+        <route edges="fh"/>
+    </vehicle>
+    <vehicle id="283" depart="566.00">
+        <route edges="-cd ce ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="284" depart="568.00">
+        <route edges="ce ef fh"/>
+    </vehicle>
+    <vehicle id="285" depart="570.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc -ib"/>
+    </vehicle>
+    <vehicle id="286" depart="572.00">
+        <route edges="de ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="287" depart="574.00">
+        <route edges="-fh fg"/>
+    </vehicle>
+    <vehicle id="288" depart="576.00">
+        <route edges="cd de ef fh hi ib bc"/>
+    </vehicle>
+    <vehicle id="289" depart="578.00">
+        <route edges="-ib -hi -fh -ef -de -cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="290" depart="580.00">
+        <route edges="-fh -ef -de -cd ce ef fh"/>
+    </vehicle>
+    <vehicle id="291" depart="582.00">
+        <route edges="fh hi ib bc ce -de -cd"/>
+    </vehicle>
+    <vehicle id="292" depart="584.00">
+        <route edges="hi ib bc ce -de -cd -bc -ib -hi -fh -ef"/>
+    </vehicle>
+    <vehicle id="293" depart="586.00">
+        <route edges="ab bc ce"/>
+    </vehicle>
+    <vehicle id="294" depart="588.00">
+        <route edges="-hi -fh -ef -de -cd -bc -ab"/>
+    </vehicle>
+    <vehicle id="295" depart="590.00">
+        <route edges="fh hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="296" depart="592.00">
+        <route edges="-ef -de -cd -bc -ib -hi -fh fg"/>
+    </vehicle>
+    <vehicle id="297" depart="594.00">
+        <route edges="-hi -fh -ef -de -cd ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="298" depart="596.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="299" depart="598.00">
+        <route edges="-bc -ib -hi -fh -ef -de -cd ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="300" depart="600.00">
+        <route edges="-cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="301" depart="602.00">
+        <route edges="ab bc ce ef"/>
+    </vehicle>
+    <vehicle id="302" depart="604.00">
+        <route edges="ce"/>
+    </vehicle>
+    <vehicle id="303" depart="606.00">
+        <route edges="ab -ib -hi -fh fg"/>
+    </vehicle>
+    <vehicle id="304" depart="608.00">
+        <route edges="-cd ce -de"/>
+    </vehicle>
+    <vehicle id="305" depart="610.00">
+        <route edges="ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="306" depart="612.00">
+        <route edges="cd de ef fh hi ib bc"/>
+    </vehicle>
+    <vehicle id="307" depart="614.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib"/>
+    </vehicle>
+    <vehicle id="308" depart="616.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="309" depart="618.00">
+        <route edges="de ef fh hi ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="310" depart="620.00">
+        <route edges="-fg -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="311" depart="622.00">
+        <route edges="-ef -de -cd"/>
+    </vehicle>
+    <vehicle id="312" depart="624.00">
+        <route edges="cd de ef"/>
+    </vehicle>
+    <vehicle id="313" depart="626.00">
+        <route edges="-de"/>
+    </vehicle>
+    <vehicle id="314" depart="628.00">
+        <route edges="ab bc cd de"/>
+    </vehicle>
+    <vehicle id="315" depart="630.00">
+        <route edges="ib bc cd"/>
+    </vehicle>
+    <vehicle id="316" depart="632.00">
+        <route edges="-fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="317" depart="634.00">
+        <route edges="-ef -de"/>
+    </vehicle>
+    <vehicle id="318" depart="636.00">
+        <route edges="-de -cd -bc -ab"/>
+    </vehicle>
+    <vehicle id="319" depart="638.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="320" depart="640.00">
+        <route edges="ib bc cd"/>
+    </vehicle>
+    <vehicle id="321" depart="642.00">
+        <route edges="ce -de -cd"/>
+    </vehicle>
+    <vehicle id="322" depart="644.00">
+        <route edges="hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="323" depart="646.00">
+        <route edges="hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="324" depart="648.00">
+        <route edges="ab -ib"/>
+    </vehicle>
+    <vehicle id="325" depart="650.00">
+        <route edges="-de -cd -bc"/>
+    </vehicle>
+    <vehicle id="326" depart="652.00">
+        <route edges="hi ib bc"/>
+    </vehicle>
+    <vehicle id="327" depart="654.00">
+        <route edges="fh hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="328" depart="656.00">
+        <route edges="-cd ce"/>
+    </vehicle>
+    <vehicle id="329" depart="658.00">
+        <route edges="-cd"/>
+    </vehicle>
+    <vehicle id="330" depart="660.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="331" depart="662.00">
+        <route edges="ib bc ce -de -cd"/>
+    </vehicle>
+    <vehicle id="332" depart="664.00">
+        <route edges="de ef fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="333" depart="666.00">
+        <route edges="ef fh hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="334" depart="668.00">
+        <route edges="bc ce -de -cd -bc -ib"/>
+    </vehicle>
+    <vehicle id="335" depart="670.00">
+        <route edges="-ib -hi -fh -ef -de -cd ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="336" depart="672.00">
+        <route edges="ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="337" depart="674.00">
+        <route edges="ce"/>
+    </vehicle>
+    <vehicle id="338" depart="676.00">
+        <route edges="de ef fh hi"/>
+    </vehicle>
+    <vehicle id="339" depart="678.00">
+        <route edges="-ef -de"/>
+    </vehicle>
+    <vehicle id="340" depart="680.00">
+        <route edges="ce -de"/>
+    </vehicle>
+    <vehicle id="341" depart="682.00">
+        <route edges="-de -cd -bc"/>
+    </vehicle>
+    <vehicle id="342" depart="684.00">
+        <route edges="-bc -ib"/>
+    </vehicle>
+    <vehicle id="343" depart="686.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="344" depart="688.00">
+        <route edges="-fg fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="345" depart="690.00">
+        <route edges="de ef fh hi ib bc"/>
+    </vehicle>
+    <vehicle id="346" depart="692.00">
+        <route edges="ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="347" depart="694.00">
+        <route edges="ef fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="348" depart="696.00">
+        <route edges="ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="349" depart="698.00">
+        <route edges="-ib -hi -fh -ef -de -cd ce ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="350" depart="700.00">
+        <route edges="ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="351" depart="702.00">
+        <route edges="fh hi ib bc ce -de -cd -bc"/>
+    </vehicle>
+    <vehicle id="352" depart="704.00">
+        <route edges="-de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="353" depart="706.00">
+        <route edges="de ef fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="354" depart="708.00">
+        <route edges="-fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="355" depart="710.00">
+        <route edges="ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="356" depart="712.00">
+        <route edges="hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="357" depart="714.00">
+        <route edges="ab -ib -hi -fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="358" depart="716.00">
+        <route edges="-cd -bc -ib"/>
+    </vehicle>
+    <vehicle id="359" depart="718.00">
+        <route edges="-hi -fh -ef"/>
+    </vehicle>
+    <vehicle id="360" depart="720.00">
+        <route edges="-cd ce ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="361" depart="722.00">
+        <route edges="fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="362" depart="724.00">
+        <route edges="hi ib"/>
+    </vehicle>
+    <vehicle id="363" depart="726.00">
+        <route edges="ce -de -cd -bc -ib -hi -fh"/>
+    </vehicle>
+    <vehicle id="364" depart="728.00">
+        <route edges="-cd ce ef"/>
+    </vehicle>
+    <vehicle id="365" depart="730.00">
+        <route edges="ab bc ce"/>
+    </vehicle>
+    <vehicle id="366" depart="732.00">
+        <route edges="hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="367" depart="734.00">
+        <route edges="cd de ef fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="368" depart="736.00">
+        <route edges="ab -ib -hi -fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="369" depart="738.00">
+        <route edges="-hi"/>
+    </vehicle>
+    <vehicle id="370" depart="740.00">
+        <route edges="ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="371" depart="742.00">
+        <route edges="-hi -fh -ef -de -cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="372" depart="744.00">
+        <route edges="-fh -ef -de -cd ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="373" depart="746.00">
+        <route edges="ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="374" depart="748.00">
+        <route edges="ab -ib -hi"/>
+    </vehicle>
+    <vehicle id="375" depart="750.00">
+        <route edges="-hi -fh -ef -de -cd ce ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="376" depart="752.00">
+        <route edges="-hi -fh -ef -de -cd ce ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="377" depart="754.00">
+        <route edges="ib bc cd de"/>
+    </vehicle>
+    <vehicle id="378" depart="756.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib"/>
+    </vehicle>
+    <vehicle id="379" depart="758.00">
+        <route edges="-de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="380" depart="760.00">
+        <route edges="de ef fh hi ib bc ce"/>
+    </vehicle>
+    <vehicle id="381" depart="762.00">
+        <route edges="de ef fh hi ib bc ce -de"/>
+    </vehicle>
+    <vehicle id="382" depart="764.00">
+        <route edges="cd de ef fh hi"/>
+    </vehicle>
+    <vehicle id="383" depart="766.00">
+        <route edges="-ib -hi -fh -ef -de -cd ce ef fh hi ib bc cd de"/>
+    </vehicle>
+    <vehicle id="384" depart="768.00">
+        <route edges="-de -cd ce ef fh hi ib"/>
+    </vehicle>
+    <vehicle id="385" depart="770.00">
+        <route edges="ce -de -cd -bc -ib -hi -fh -ef"/>
+    </vehicle>
+    <vehicle id="386" depart="772.00">
+        <route edges="-de -cd ce ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="387" depart="774.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd"/>
+    </vehicle>
+    <vehicle id="388" depart="776.00">
+        <route edges="ib bc ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="389" depart="778.00">
+        <route edges="ab -ib -hi -fh -ef -de -cd"/>
+    </vehicle>
+    <vehicle id="390" depart="780.00">
+        <route edges="fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="391" depart="782.00">
+        <route edges="de ef fh hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="392" depart="784.00">
+        <route edges="-fh -ef -de -cd ce ef fh"/>
+    </vehicle>
+    <vehicle id="393" depart="786.00">
+        <route edges="ib bc ce -de -cd -bc -ib -hi -fh -ef"/>
+    </vehicle>
+    <vehicle id="394" depart="788.00">
+        <route edges="cd de ef fh hi ib bc ce -de -cd -bc -ib -hi"/>
+    </vehicle>
+    <vehicle id="395" depart="790.00">
+        <route edges="hi ib bc cd"/>
+    </vehicle>
+    <vehicle id="396" depart="792.00">
+        <route edges="hi"/>
+    </vehicle>
+    <vehicle id="397" depart="794.00">
+        <route edges="-fh fg"/>
+    </vehicle>
+    <vehicle id="398" depart="796.00">
+        <route edges="-ib -hi -fh -ef -de -cd ce ef fh hi"/>
+    </vehicle>
+    <vehicle id="399" depart="798.00">
+        <route edges="bc ce ef fh"/>
     </vehicle>
 </routes>

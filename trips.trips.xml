@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<!-- generated on 2024-04-10 18:20:34.780935 by randomTrips.py v1_19_0+0000-baa66a0f364
+<!-- generated on 2024-04-10 18:29:33.291724 by randomTrips.py v1_19_0+0000-baa66a0f364
 <configuration>
-    <net-file value=".\70\custom_70.net.xml"/>
-    <route-file value=".\70\custom_70.routes.xml"/>
+    <net-file value="custom.net.xml"/>
+    <route-file value="custom.routes.xml"/>
     <length value="True"/>
     <end value="800.0"/>
     <period value="2.0"/>
