@@ -1,0 +1,10 @@
+<configuration>
+    <input>
+        <net-file value="custom_50.net.xml"/>
+        <route-files value="custom_50.routes.xml"/>
+    </input>
+    <time>
+        <begin value="0"/>
+        <end value="1000"/>
+    </time>
+</configuration>

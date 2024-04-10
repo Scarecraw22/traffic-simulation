@@ -1,0 +1,66 @@
+
+spython:S1066ø"/Merge this if statement with the enclosing one.(ìíğãûÿÿÿÿJ$5d870786-d0c0-4f65-8a63-30ddc848927a
+spython:S1066ü"/Merge this if statement with the enclosing one.(÷èßäÿÿÿÿÿJ$7bf71b0d-4392-43fb-a01f-2ebf22144f99
+’python:S3776/"TRefactor this function to reduce its Cognitive Complexity from 63 to the 15 allowed.(¸‹Ş£J$dfafd080-d37a-49c8-bd63-595dce3fd59e
+~python:S1244Ü":Do not perform equality checks with floating point values.(–­òèúÿÿÿÿJ$7807674a-889e-4745-9e68-9a999304ae7e
+~python:S1244ä":Do not perform equality checks with floating point values.(å§³“şÿÿÿÿJ$bd0db152-b286-4703-8ebd-99d17bdfe4c1
+¡python:S117¡"^Rename this local variable "edgeFromStops" to match the regular expression ^[_a-z][a-z0-9_]*$.(âµÀúÿÿÿÿJ$5d790bd8-b5d1-4bcc-933b-144788c3c68e
+•python:S117¶"WRename this local variable "edgeID" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ñí²J$e93d6898-d2a5-428a-be8c-ef3089535625
+špython:S117¢"\Rename this local variable "edgeToStops" to match the regular expression ^[_a-z][a-z0-9_]*$.(ãÜÃ´J$d96c35be-7a6c-4220-a039-9dfe7cdec5ab
+˜python:S117§"ZRename this local variable "stopTypes" to match the regular expression ^[_a-z][a-z0-9_]*$.(ñÜĞÉJ$1e0a8cbc-ae39-4d0e-87c6-bce2281c7dd2
+™python:S117³"[Rename this local variable "typeCounts" to match the regular expression ^[_a-z][a-z0-9_]*$.(ßï›†J$f61b828a-129f-49f0-804f-962f97f597e1
+python:S1542 "ORename function "loadStops" to match the regular expression ^[a-z_][a-z0-9_]*$.(ãËæJ$8000d228-f540-4ddf-bedf-a976ff374ad9
+“python:S3776 "TRefactor this function to reduce its Cognitive Complexity from 28 to the 15 allowed.(ãËæJ$75f260d3-472b-47cd-b80b-e4d91744d5a7
+]python:S125Ú"Remove this commented out code.(½×²J$e56582e3-8f7e-4343-a157-aade8798bf2a
+•python:S117î"WRename this local variable "edgeID" to match the regular expression ^[_a-z][a-z0-9_]*$.(¤©›‰J$65e99445-2fa1-4393-b8c8-112195695fde
+˜python:S117Š"ZRename this local variable "destCoord" to match the regular expression ^[_a-z][a-z0-9_]*$.(¦„ ¬J$8d9d3647-422b-43ab-9f30-aec8c8c8c6ea
+špython:S117ş"WRename this parameter "junctionTaz" to match the regular expression ^[_a-z][a-z0-9_]*$.(ıæ«ÿÿÿÿÿJ$86ebbf8a-8e0d-4df5-85d5-ef880841f744
+˜python:S3776ş"TRefactor this function to reduce its Cognitive Complexity from 20 to the 15 allowed.(ıæ«ÿÿÿÿÿJ$effe69d8-e33c-473c-b50d-e1574f763091
+python:S112–">Replace this generic exception class with a more specific one.(ÑÑ¾÷øÿÿÿÿJ$b0509925-b2e5-46b2-b3c1-3e66941c2434
+špython:S117›"\Rename this local variable "randomProbs" to match the regular expression ^[_a-z][a-z0-9_]*$.(ØåõJ$a43481bb-2dc8-4771-819d-78e94659ef29
+—python:S117¥"YRename this local variable "stopDict" to match the regular expression ^[_a-z][a-z0-9_]*$.(¾Û¯²J$9ae625fd-7973-4d0a-8b85-b5f68b433891
+˜python:S3776™"TRefactor this function to reduce its Cognitive Complexity from 63 to the 15 allowed.(öÁ¿ŠıÿÿÿÿJ$82ce3970-5642-4e2c-bb01-83a80fc5ecb1
+python:S117Û"ZRename this local variable "angleDiff" to match the regular expression ^[_a-z][a-z0-9_]*$.(¬ şÿÿÿÿJ$650fd9ca-d519-4ebf-9de4-9a288ebe9d41
+—python:S117Ú"ZRename this local variable "edgeAngle" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ê‘—UJ$a36c68b6-3b75-47f5-b102-80323664fd35
+—python:S117Î"YRename this local variable "isFringe" to match the regular expression ^[_a-z][a-z0-9_]*$.(œ’èˆJ$eb87fbd4-7822-47d0-819c-dc9541b0a9e9
+ypython:S1244Á":Do not perform equality checks with floating point values.(ßÜİ¬J$e9e7a044-3aa2-4aba-b6be-2af53a6999d1
+xpython:S1244Í":Do not perform equality checks with floating point values.(‹® yJ$9c150c3a-c6e1-446e-9c81-5bff5c180250
+~python:S1244Ö":Do not perform equality checks with floating point values.(ã˜è¢şÿÿÿÿJ$8557c852-c381-46c7-a937-3871b51eebdd
+bpython:S125Ü"Remove this commented out code.(†•ñ…şÿÿÿÿJ$7a8a2090-b1f4-4b95-b8f6-224db39830aa
+œpython:S1542ö"XRename function "buildTripGenerator" to match the regular expression ^[a-z_][a-z0-9_]*$.(ÅŞ†ƒşÿÿÿÿJ$31848254-4d3a-4654-a614-551a6afe64d0
+˜python:S3776ö"TRefactor this function to reduce its Cognitive Complexity from 17 to the 15 allowed.(ÅŞ†ƒşÿÿÿÿJ$8a19e212-4f62-49fc-80f0-d23f7351d19a
+spython:S1172½"/Remove the unused function parameter "verbose".(ªÎÑøÿÿÿÿJ$6daedc49-2707-464b-96bb-049fd10409fb
+–python:S117½"SRename this parameter "hasType" to match the regular expression ^[_a-z][a-z0-9_]*$.(ªÎÑøÿÿÿÿJ$cf19d159-8c3e-4c9b-b199-c8d63407e181
+˜python:S3776½"TRefactor this function to reduce its Cognitive Complexity from 26 to the 15 allowed.(ªÎÑøÿÿÿÿJ$291ab9a9-f2df-4b25-97a6-b13b05f1dc7a
+‘python:S1542ë"RRename function "prependSpace" to match the regular expression ^[a-z_][a-z0-9_]*$.(Úƒ­ÍJ$da84df6f-623c-49d3-a11d-63e3382cee21
+“python:S1542ò"TRename function "samplePosition" to match the regular expression ^[a-z_][a-z0-9_]*$.(õ…¡J$6e6ce866-08c7-48c4-8d4a-94de2b8d84a6
+Ÿpython:S117"\Rename this local variable "arrivalTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÔÈ’«úÿÿÿÿJ$42fb8fd9-a94e-43d6-8076-57c531a7435b
+¡python:S117"^Rename this local variable "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ËğîåúÿÿÿÿJ$0a0039d6-d2e3-4ada-a9f7-83be250b2f58
+œpython:S117"YRename this local variable "idPrefix" to match the regular expression ^[_a-z][a-z0-9_]*$.(ùğü•ÿÿÿÿÿJ$183a5f93-e552-4a3c-90c2-60bb779eec18
+python:S117œ"[Rename this local variable "rSubSecond" to match the regular expression ^[_a-z][a-z0-9_]*$.(”›ÉœûÿÿÿÿJ$7d35ab72-c660-4e3f-bb4f-76eb966f600b
+™python:S117˜"VRename this local variable "rTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ò™ØÏıÿÿÿÿJ$053316df-be96-4229-8437-6bd0aecfd015
+œpython:S117ÿ"YRename this local variable "tmpTrips" to match the regular expression ^[_a-z][a-z0-9_]*$.(«‹ÇíÿÿÿÿÿJ$5e112350-088e-46d8-9e35-a5d0c5448b18
+œpython:S117ù"YRename this local variable "vTypeDef" to match the regular expression ^[_a-z][a-z0-9_]*$.(©ú–¶şÿÿÿÿJ$079a74df-b83b-4fa9-b7de-27689c33d38b
+™python:S3776ö"URefactor this function to reduce its Cognitive Complexity from 202 to the 15 allowed.(„úÌşÿÿÿÿJ$047d4865-4a48-4e8b-9b7a-fb8a75b90104
+tpython:S1172š"5Remove the unused function parameter "departureTime".(ÈãÔåJ$c8f7bd68-f85a-449c-a9ac-c4b45aea6924
+rpython:S1172š"3Remove the unused function parameter "arrivalTime".(ÈãÔåJ$a08bdac5-7b46-41b9-8ec7-cf79dc6ff621
+•python:S117š"WRename this parameter "arrivalTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÈãÔåJ$27a8654c-4450-4c28-aba1-41e25dba7dd6
+—python:S117§"YRename this local variable "attrFrom" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÁÜœêJ$8b38570a-d14e-4c75-ad92-27f12af6e8ff
+•python:S117¨"WRename this local variable "attrTo" to match the regular expression ^[_a-z][a-z0-9_]*$.(Ö¢·ˆJ$fc18704e-6e1e-44f0-87d0-7ded8707d279
+—python:S117š"YRename this parameter "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ÈãÔåJ$f4db839f-37d9-43cd-9014-8909fa2a1afb
+¢python:S117"_Rename this local variable "randomPosition" to match the regular expression ^[_a-z][a-z0-9_]*$.(˜¾‡ìùÿÿÿÿJ$8d7085b1-a283-4f68-932d-a35cf75642a5
+tpython:S1172¸"6Remove the unused function parameter "combined_attrs".(ˆ¨ÅaJ$dc2cf079-ff10-46c2-829b-d8f458e50b4d
+‘python:S117¸"TRename this parameter "attrFrom" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ¨ÅaJ$b9b65a08-c2f5-44a4-aea7-785bdd343e27
+python:S117¸"RRename this parameter "attrTo" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ¨ÅaJ$8ab25d79-8c0d-4bc8-9914-f0125b412b30
+–python:S117¸"YRename this parameter "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ˆ¨ÅaJ$70e7da94-6017-4087-8897-aae284b949fd
+”python:S117Î"WRename this parameter "arrivalTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü§ÜJ$00b3ad61-9e1c-4f24-90a0-99b064090d68
+–python:S117Î"YRename this parameter "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü§ÜJ$84e53c88-95c7-4d64-8fe8-0be7a86bee47
+python:S117Î"SRename this parameter "timeIdx" to match the regular expression ^[_a-z][a-z0-9_]*$.(ü§ÜJ$40bdb35e-6ec3-440a-9e69-dce7ea4da16d
+–python:S117Ú"YRename this parameter "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(Øò¦JJ$e58a0a61-a979-4a0c-b057-d70b155e6cf9
+špython:S117Ş"WRename this parameter "arrivalTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(®è ûşÿÿÿÿJ$7b70f9eb-9262-4a6a-b009-63bf94b2a255
+—python:S117à"YRename this local variable "attrFrom" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğİè÷J$afe5a52b-ae4c-43db-9130-d6a06dfc236b
+•python:S117à"WRename this local variable "attrTo" to match the regular expression ^[_a-z][a-z0-9_]*$.(ğİè÷J$f6737ea7-2f99-4dfe-becd-8c683caf5717
+œpython:S117Ş"YRename this parameter "departureTime" to match the regular expression ^[_a-z][a-z0-9_]*$.(®è ûşÿÿÿÿJ$4dbf82e7-fc17-49bd-b144-17996ddfcc4b
+–python:S117Ş"SRename this parameter "timeIdx" to match the regular expression ^[_a-z][a-z0-9_]*$.(®è ûşÿÿÿÿJ$2608574c-0fd8-455e-8ae5-118867be9e37
+ypython:S1244‘":Do not perform equality checks with floating point values.(”ÕÆ¦J$03806ffe-9111-4363-84db-46061182ba5c
+ypython:S1244Ç":Do not perform equality checks with floating point values.(”ÕÆ¦J$b25b0165-60ae-4d73-a663-6acd6c91c0a1
