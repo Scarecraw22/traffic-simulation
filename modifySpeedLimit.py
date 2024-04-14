@@ -1,6 +1,5 @@
 import xml.etree.ElementTree as ET
 
-# Ścieżka do twojego pliku sieci drogowej
 speeds = {
     "20": "5.55",
     "30": "8.33",

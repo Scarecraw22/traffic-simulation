@@ -1,22 +1,10 @@
 
-=
-test.type.xml,d\f\df0e2809b77a5ae34d3d19e3cafa293d736f66e6
-<
-test.nod.xml,3\f\3f02367c6ac427bab4a01d124d50ca7446b645b5
 9
 	README.md,8\e\8ec9a00bfd09b3190ac6b22251dbb1aa95a0579d
-A
-bronowice.sumocfg,8\6\86ab7a8e8e4e45883c24844a2c74391d3df69a87
-<
-test.edg.xml,3\1\31b525939ceab759f8e3e1747c5cba5d872e6f1e
-A
-bronowice.net.xml,2\d\2d4670df76bf6a0f0342b77a6af957c6339ac771
 ?
 trips.trips.xml,6\b\6bfb4bf1e14d4d06599c5d6a8506ef4028d85b39
 >
 randomTrips.py,e\a\eacac0acaa4c389b80ad80b371435ac19ecbe586
-D
-bronowice.routes.xml,f\8\f8a831ed39dab91e0ed6261930f59b3f4cde6ffa
 >
 custom.net.xml,5\8\58b177de2587826f7579595bed2e46398c08d1e7
 >
@@ -27,8 +15,6 @@ A
 custom.netecfg,c\3\c350afe61aba8c5fa9b4935f25e3ab685ebcdcc0
 >
 custom.add.xml,e\9\e9dba8fe3c084d4ba01dc26eec0db5736768d530
-A
-20/custom.sumocfg,a\0\a0be2ed66dabc9ce85874fc1224f07d69ea97c07
 D
 20/custom_20.net.xml,8\d\8d603774ccf5fedb295c43e9cc014424264d0f2f
 C
@@ -53,3 +39,7 @@ D
 50/custom_50.net.xml,2\9\29a9b89fbab401dd7be37523b23b5fc189daf069
 D
 70/custom_70.net.xml,e\7\e79ad1b389dc013fe8420a367560c1d4925587d5
+G
+60/custom_60.routes.xml,5\3\533a31f613b8ed8445d5e46ce6df8a78c6df0b13
+D
+60/custom_60.net.xml,0\f\0f62552e51980454b34758868a8c5f2a13fb25be
