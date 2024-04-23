@@ -1,6 +1,3 @@
-Converting:
-
-`netconvert --osm-files bronowice.osm -o bronowice.net.xml --geometry.remove --roundabouts.guess --ramps.guess --junctions.join --tls.guess-signals --tls.discard-simple --tls.join`
 
 Random trips:
 
